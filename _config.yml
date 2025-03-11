@@ -22,22 +22,22 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "sapir.jpg"
+  avatar           : "sapir.png"
   name             : "Sapir Harary"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "M.Sc Student @ BIU-NLP"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : #"Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : #"none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #
   researchgate     : # URL
   scopus           : # URL
 
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -214,16 +214,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
